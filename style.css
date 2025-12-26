@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card container */
+.container {
+    background: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Main heading */
+.container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* Sub headings */
+.container h2 {
+    color: #555;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* Small hover effect */
+.container:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
